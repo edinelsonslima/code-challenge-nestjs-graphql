@@ -6,8 +6,8 @@ import {
   ResolveField,
   Resolver,
 } from '@nestjs/graphql';
-import { Message } from 'src/db/models/message.model';
-import { User } from 'src/db/models/user.model';
+import { Message } from 'src/db/models/message.entity';
+import { User } from 'src/db/models/user.entity';
 import { RepoService } from 'src/repo.service';
 import { MessageInput } from './input/message.input';
 

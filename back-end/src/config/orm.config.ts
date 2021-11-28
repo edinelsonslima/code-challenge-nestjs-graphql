@@ -12,4 +12,4 @@ const ormOptions: TypeOrmModuleOptions = {
   },
 };
 
-export { ormOptions };
+export = ormOptions;

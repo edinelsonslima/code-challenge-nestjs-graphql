@@ -7,7 +7,7 @@ import {
   PrimaryGeneratedColumn,
   UpdateDateColumn,
 } from 'typeorm';
-import { Message } from './message.model';
+import { Message } from './message.entity';
 
 @ObjectType()
 @Entity({name: 'users'})

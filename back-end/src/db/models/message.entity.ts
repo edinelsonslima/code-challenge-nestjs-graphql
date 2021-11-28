@@ -4,11 +4,10 @@ import {
   CreateDateColumn,
   UpdateDateColumn,
   Column,
-  OneToMany,
   JoinColumn,
   ManyToOne,
 } from 'typeorm';
-import { User } from './user.model';
+import { User } from './user.entity';
 import { Field, ObjectType } from '@nestjs/graphql';
 
 @ObjectType()
