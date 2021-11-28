@@ -8,4 +8,13 @@ class MessageInput {
   readonly userId: number;
 }
 
-export { MessageInput };
+@InputType()
+class DeleteMessageInput {
+  @Field()
+  readonly id: number;
+
+  @Field()
+  readonly userId: number;
+}
+
+export { MessageInput, DeleteMessageInput };
